@@ -267,7 +267,6 @@ form p{
   width: 48px;
 }
 .media-icon{
-  /* border: 5px solid black; */
   margin-right: 12px;
 }
 .media-icon:hover{
@@ -335,6 +334,10 @@ form p{
   .nav .container{
     flex-direction: column;
     max-width: 100%;
+    padding: 0;
+  }
+  .logo-img{
+    margin: 12px 0 0 12px;
   }
   .menu{
     flex-wrap: wrap;
